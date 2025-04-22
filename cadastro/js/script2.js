@@ -9,7 +9,7 @@ spans[2].textContent = pessoa.endereco
 spans[3].textContent = pessoa.estado
 spans[4].textContent = pessoa.sexo
 
-const img = document.querySelector('img')
+const img = document.querySelector('.impressora')
 
 img.addEventListener('click', ()=>{
     img.style.display = 'none'

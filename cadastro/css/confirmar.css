@@ -29,7 +29,8 @@ section{
 
 section div{
     display: flex;
-    
+    height: 30px;
+    align-items: center;
 }
 
 section div label{
@@ -39,4 +40,10 @@ section div label{
 img{
     width: 40px;
     height: 40px;
+}
+
+section img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
