@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body{
+    background-image: url('/img/download.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite AU SA", cursive;
+}
+
+section{
+    width: 70%;
+    opacity: 0.8;
+}
+
+form{
+    padding: 20px;
+    background-color: rgb(160, 180, 240);
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: 5px 10px black;
+}
+
+form div{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+form input{
+    width: 70%;
+}
+
+form select{
+    width: 15%;
+}
+
+.div_sexo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    width: 20%;
+}
