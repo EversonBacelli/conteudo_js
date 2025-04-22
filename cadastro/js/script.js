@@ -8,10 +8,14 @@ btn.addEventListener('click', pegarDados)
 function pegarDados(){
     let form = document.querySelector('form')
 
-
-    console.log(form.nome.value)
-    console.log(form.email.value)
-    console.log(form.endereco.value)
-    console.log(form.estado.value)
-    console.log(form.sexo.value)
+    let pessoa = {
+        nome: form.nome.value,
+        email: form.email.value,
+        endereco: form.endereco.value,
+        sexo: form.sexo.value,
+        estado: form.estado.value
+    }
+    
+    sessionStorage.pessoa = JSON.stringify(pessoa)
+    location.href = 'http://127.0.0.1:5500/confirmarCadastro.html'
 }
